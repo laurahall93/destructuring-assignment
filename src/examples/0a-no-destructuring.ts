@@ -7,11 +7,14 @@ const poemLines = [
 
 const person = { firstName: "Richard", lastName: "Ng", location: "UK" };
 
-const firstLine = poemLines[0];
-const secondLine = poemLines[1];
+//const firstLine = poemLines[0];
+//const secondLine = poemLines[1];
+const [firstLine , secondLine] = poemLines;
 
-const firstName = person.firstName;
-const lastName = person.lastName;
+//const firstName = person.firstName;
+//const lastName = person.lastName;
+
+const {firstName, lastName} = person;
 
 console.log(firstLine);
 console.log(secondLine);
